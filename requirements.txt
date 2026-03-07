@@ -1,11 +1,12 @@
-streamlit
+streamlit==1.32.2
 langchain==0.1.16
 langchain-community==0.0.34
 langchain-groq
 langchain-google-genai
-faiss-cpu
-sentence-transformers
+faiss-cpu==1.7.4
+sentence-transformers==2.6.1
 python-dotenv
 feedparser
 reportlab
 pypdf
+protobuf==3.20.3
