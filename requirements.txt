@@ -6,8 +6,6 @@ langchain-google-genai
 faiss-cpu
 sentence-transformers
 python-dotenv
-feedparser 
+feedparser
 reportlab
 pypdf
-PyPDF2
-groq
