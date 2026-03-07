@@ -1,0 +1,27 @@
+{
+  "Legal Notice": [
+    "Sender Name",
+    "Sender Address",
+    "Receiver Name",
+    "Receiver Address",
+    "Reason",
+    "Demand",
+    "Notice Period"
+  ],
+  "Rental Agreement": [
+    "Landlord Name",
+    "Tenant Name",
+    "Property Address",
+    "Monthly Rent",
+    "Deposit",
+    "Duration",
+    "Clauses"
+  ],
+  "NDA": [
+    "Party 1",
+    "Party 2",
+    "Confidential Information",
+    "Term",
+    "Jurisdiction"
+  ]
+}

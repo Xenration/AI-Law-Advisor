@@ -1,0 +1,83 @@
+{
+  "Criminal Law": [
+    {
+      "name": "Siddhartha Shah & Associates",
+      "specialization": "Criminal Defense",
+      "experience": "10+ Years",
+      "court": "Bombay High Court / Sessions Court",
+      "location": "Mumbai",
+      "contact_phone": "+91-9322286663",
+      "email": "",
+      "website": "https://www.siddharthashahandassociates.com"
+    },
+    {
+      "name": "Chirag Shah & Co., Advocate & Solicitor",
+      "specialization": "Criminal, Civil & Family Matters",
+      "experience": "15+ Years",
+      "court": "Bombay High Court",
+      "location": "Mumbai",
+      "contact_phone": "+91-8898050051",
+      "email": "",
+      "website": "https://www.advocateshah.com/"
+    },
+    {
+      "name": "Pan India Advocate & Associates",
+      "specialization": "Criminal & Civil Cases",
+      "experience": "8+ Years",
+      "court": "City Civil Court Mumbai",
+      "location": "Mumbai",
+      "contact_phone": "+91-9833509486",
+      "email": "",
+      "website": "https://www.panindiaadvocate.com/"
+    }
+  ],
+
+  "Family Law": [
+    {
+      "name": "Advocate Usha Tanna",
+      "specialization": "Family & Matrimonial Law",
+      "experience": "12+ Years",
+      "court": "Family Court Mumbai",
+      "location": "Mumbai",
+      "contact_phone": "+91-9619946479",
+      "email": "",
+      "website": "https://www.ushatanna.com/"
+    },
+    {
+      "name": "Seema Hunnurkar & Associates",
+      "specialization": "Family & Divorce Law",
+      "experience": "15+ Years",
+      "court": "Mumbai Courts",
+      "location": "Mumbai",
+      "contact_phone": "+91-9820xxxxxx",
+      "email": "",
+      "website": ""
+    }
+  ],
+
+  "Property Law": [
+    {
+      "name": "Law Quest International",
+      "specialization": "Property & Real Estate Law",
+      "experience": "10+ Years",
+      "court": "City Civil Court Mumbai",
+      "location": "Mumbai",
+      "contact_phone": "+91-22-400020954",
+      "email": "info@lawquestinternational.com",
+      "website": "https://www.lawquestinternational.com"
+    }
+  ],
+
+  "Corporate Law": [
+    {
+      "name": "Cyril Amarchand Mangaldas LLP",
+      "specialization": "Corporate & Commercial Law",
+      "experience": "30+ Years",
+      "court": "Bombay High Court",
+      "location": "Mumbai",
+      "contact_phone": "+91-22-6100 6000",
+      "email": "mumbai@cyrilshroff.com",
+      "website": "https://www.cyrilshroff.com"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "title": "murder of piyush ",
+        "client": "sufiyan patil",
+        "court": "railway courte sion branch ",
+        "status": "Open",
+        "priority": "High",
+        "description": "Case description goes here...this iss the case description ",
+        "next_hearing": "2026-03-05",
+        "created_at": "2026-02-26 22:00",
+        "notes": [
+            {
+                "text": "Initial filing completed",
+                "time": "2026-02-26 22:30"
+            }
+        ],
+        "attachments": [
+            {
+                "filename": "proof1.pdf",
+                "uploaded_at": "2026-02-26 22:35"
+            }
+        ],
+        "success_probability": 75
+    },
+    {
+        "id": 2,
+        "title": "kidnapping of nihal pati",
+        "client": "sufiyan pawar",
+        "court": "ratnagiri branch ",
+        "status": "Open",
+        "priority": "Medium",
+        "description": "nihal patil a school student is missing in the sunday evening while going for a walk ",
+        "next_hearing": "2026-02-26",
+        "created_at": "2026-02-26 01:44:36.442895",
+        "notes": [],
+        "attachments": [
+            {
+                "filename": "Partnership_Deed.pdf",
+                "uploaded_at": "2026-02-26 01:44:36.442895"
+            }
+        ],
+        "success_probability": 74
+    }
+]
