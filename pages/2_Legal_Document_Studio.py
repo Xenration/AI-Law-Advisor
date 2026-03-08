@@ -17,8 +17,12 @@ st.set_page_config(page_title="Legal Document Studio", page_icon="📄", layout=
 st.title("📄 Legal Document Studio")
 st.markdown("Generate structured Indian legal documents with guided professional inputs.")
 
-load_dotenv()
-groq_api_key = os.getenv("GROQ_API_KEY")
+# Load API key (Streamlit Cloud or local)
+try:
+    groq_api_key = st.secrets["GROQ_API_KEY"]
+except:
+    load_dotenv()
+    groq_api_key = os.getenv("GROQ_API_KEY")
 
 llm = ChatGroq(
     groq_api_key=groq_api_key,
@@ -216,4 +220,5 @@ if generated_doc:
                 f,
                 file_name=f"{doc_type.replace(' ','_')}.pdf",
                 mime="application/pdf"
+
             )
