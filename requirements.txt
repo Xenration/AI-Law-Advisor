@@ -10,3 +10,4 @@ feedparser==6.0.11
 reportlab==4.0.9
 pypdf==4.1.0
 protobuf==3.20.3
+pillow==10.4.0
