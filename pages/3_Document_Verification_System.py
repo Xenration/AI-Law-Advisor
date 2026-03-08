@@ -10,8 +10,12 @@ st.set_page_config(page_title="Document Verification System", page_icon="📝", 
 st.title("📝 Document Verification System")
 st.markdown("Upload a legal document (PDF) and get AI analysis with surety/confidence score and summary.")
 
-load_dotenv()
-groq_api_key = os.getenv("GROQ_API_KEY")
+# Load API key (Streamlit Cloud or local)
+try:
+    groq_api_key = st.secrets["GROQ_API_KEY"]
+except:
+    load_dotenv()
+    groq_api_key = os.getenv("GROQ_API_KEY")
 
 uploaded_file = st.file_uploader("Upload your legal document (PDF only)", type=["pdf"])
 
@@ -69,4 +73,5 @@ Document Text:
 
                 result = llm.invoke(prompt).content
                 st.markdown("### Analysis Result:")
+
                 st.write(result)
