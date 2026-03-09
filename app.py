@@ -51,10 +51,7 @@ st.title("⚖️ Smart Legal Advisor")
 st.markdown("##### AI-Powered Indian Legal Guidance System")
 
 # Load API key (Streamlit Cloud or local)
-llm = ChatGroq(
-    groq_api_key=groq_api_key,
-    model_name="llama3-8b-8192"
-)
+groq_api_key = os.getenv("GROQ_API_KEY")
 # ---------------- CASE MANAGER SIDEBAR ----------------
 st.sidebar.title("📁 Smart Case Manager")
 
