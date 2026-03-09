@@ -11,11 +11,7 @@ st.title("📝 Document Verification System")
 st.markdown("Upload a legal document (PDF) and get AI analysis with surety/confidence score and summary.")
 
 # Load API key (Streamlit Cloud or local)
-try:
-    groq_api_key = st.secrets["GROQ_API_KEY"]
-except:
-    load_dotenv()
-    groq_api_key = os.getenv("GROQ_API_KEY")
+groq_api_key = os.getenv("GROQ_API_KEY")
 
 uploaded_file = st.file_uploader("Upload your legal document (PDF only)", type=["pdf"])
 
@@ -75,3 +71,4 @@ Document Text:
                 st.markdown("### Analysis Result:")
 
                 st.write(result)
+
