@@ -21,7 +21,7 @@ st.markdown("Generate structured Indian legal documents with guided professional
 groq_api_key = os.getenv("GROQ_API_KEY")
 
 llm = ChatGroq(
-    groq_api_key=groq_api_key,
+    api_key=groq_api_key,
     model_name="llama-3.1-8b-instant",
     temperature=0.2
 )
@@ -218,4 +218,5 @@ if generated_doc:
                 mime="application/pdf"
 
             )
+
 
