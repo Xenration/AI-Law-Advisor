@@ -203,12 +203,11 @@ Answer:
         input_variables=["context", "chat_history", "question"]
     )
 
-   llm = ChatGroq(
-    api_key=groq_api_key,
-    model_name="llama-3.1-8b-instant",
-    temperature=0.2
-)
-
+    llm = ChatGroq(
+        api_key=groq_api_key,
+        model_name="llama-3.1-8b-instant",
+        temperature=0.2
+    )
     return ConversationalRetrievalChain.from_llm(
         llm=llm,
         retriever=retriever,
