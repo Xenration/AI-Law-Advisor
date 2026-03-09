@@ -45,11 +45,10 @@ if uploaded_file:
         if st.button("Analyze Document"):
             with st.spinner("Analyzing document..."):
                 llm = ChatGroq(
-                    groq_api_key=groq_api_key,
-                    model_name="llama-3.1-8b-instant",
-                    temperature=0.2
-                )
-
+    api_key=groq_api_key,
+    model_name="llama-3.1-8b-instant",
+    temperature=0.2
+)
                 prompt = f"""
 You are a professional Indian legal assistant.
 
@@ -71,4 +70,5 @@ Document Text:
                 st.markdown("### Analysis Result:")
 
                 st.write(result)
+
 
